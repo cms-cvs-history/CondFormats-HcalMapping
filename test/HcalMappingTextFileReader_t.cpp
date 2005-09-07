@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
 
-  char* name="test.map";
+  const char* name="test.map";
   if (argc>1) name=argv[1];
 
   cms::hcal::HcalMapping hrm=cms::hcal::HcalMappingTextFileReader::readFromFile(name,true);
