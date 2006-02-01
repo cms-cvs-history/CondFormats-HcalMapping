@@ -1,7 +1,0 @@
-
-<bin file=HcalMappingTextFileReader_t.cpp name=HcalMappingTextFileReader_t>
-<use name=CondFormats/HcalMapping>
-<use name=boost>
-<use name=Dictionary/ReflectionBuilder>
-</bin>
-
